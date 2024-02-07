@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('file:///C:/Users/Seu%20Madruguinha/Desktop/Projetos/calculadora/matrix.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #d8d8d8;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #afafaf, -6px -6px 12px #e0e0e0;
+}
+
+.keys {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background: #d8d8d8;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #afafaf, -6px -6px 12px #e0e0e0;
+    justify-self: center;
+}
+
+.clear {
+    background-color: #5d5d5d;
+    color: #fff;
+}
